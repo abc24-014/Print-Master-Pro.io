@@ -1,16 +1,1 @@
-body {
-    background-color: beige; /* Set body background to beige */
-    font-family: 'DEBAS', sans-serif; /* Set font to DEBAS */
-}
 
-.custom-navbar {
-    background-color: #333; /* Dark grey background for navbar */
-}
-
-.custom-navbar .nav-link {
-    color: white; /* White text for navbar links */
-}
-
-.custom-navbar .nav-link:hover {
-    color: #ccc; /* Light grey on hover */
-}
