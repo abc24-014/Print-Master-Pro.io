@@ -1,1 +1,53 @@
+/* General Styling */
+body {
+    background-color: #f5f5dc; /* Beige color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
 
+/* Navigation Bar */
+.custom-navbar {
+    background-color: #333; /* Dark grey */
+    padding: 10px 20px;
+}
+
+.custom-navbar .nav-link {
+    color: #f5f5f5; /* Light grey text */
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ff9800; /* Orange on hover */
+}
+
+.custom-navbar .navbar-brand {
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-placeholder.jpg') no-repeat center center / cover; /* Hero image */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 50px 20px;
+}
+
+/* Section Styling */
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
