@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa; /* Light background */
@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Navigation Bar */
+
 .custom-navbar {
     background-color: #007bff; /* Blue navbar */
     padding: 10px 0;
@@ -30,7 +30,7 @@ body {
     border-radius: 5px;
 }
 
-/* Hero Section */
+
 .hero {
     background: url("hero-placeholder.jpg") no-repeat center center;
     background-size: cover;
