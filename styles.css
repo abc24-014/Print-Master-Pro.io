@@ -1,4 +1,5 @@
 body {
+    background-color: #F5F5DC; /* Beige */
     font-family: 'Arial', sans-serif;
 }
 
@@ -16,11 +17,15 @@ header {
 }
 
 .btn-primary {
-    background-color: ##ADD8E6;
+    background-color: #FFA500; /* Orange */
     border: solid;
 }
 
 .btn-primary:hover {
     background-color: #ffbd69;
     transform: scale(1.1);
+}
+
+.logo-container {
+    background-color: #A9A9A9; /* Dark Grey */
 }
