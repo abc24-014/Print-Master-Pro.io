@@ -9,6 +9,7 @@ body {
 
 .nav-link:hover {
     color: yellow !important;
+    boder: solid
 }
 .main-content {
     background-image: url('your-image.jpg'); /* Replace with your image URL */
