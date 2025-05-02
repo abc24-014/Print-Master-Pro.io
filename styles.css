@@ -26,16 +26,15 @@ main {
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 }
 
 header {
     background: linear-gradient(45deg, #007BFF, #00C6FF);
     color: white;
 }
-45deg, #ff5733, #ffbd69
 .btn-primary {
-    background-color: #FFA500; /* Orange */
+    background-color: #333; 
     border: solid;
 }
 
