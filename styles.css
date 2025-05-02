@@ -11,13 +11,12 @@ body {
     color: yellow !important;
     boder: solid
 }
-.main-content {
-    background-image: url(OIP.jpg); 
+.main {
+    background: linaer-gradient (to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(OIP.jpg); 
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents repetition */
     width: 100%; /* Adjust as needed */
-    height: 500px; /* Set height depending on your layout */
+    height: 109vh; /* Set height depending on your layout */
 }
 
 
