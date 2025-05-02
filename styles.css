@@ -8,7 +8,8 @@
     background: linear-gradient (to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('OIP.jpg');
     background-size: cover;
     background-position: center;
-    height: 109vh
+    min-height: 100vh;
+
    }
 .navbar{
     width:1200px;
