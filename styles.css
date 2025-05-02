@@ -11,8 +11,8 @@ body {
     color: yellow !important;
     boder: solid
 }
-.main-content {
-    background-image: url('your-image.jpg'); /* Replace with your image URL */
+.main {
+    background-image: url('https://q-xx.bstatic.com/xdata/images/hotel/263x210/595551044.jpeg?k=262826efe8e21a0868105c01bf7113ed94de28492ee370f4225f00d1de0c6c44&o='); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repetition */
@@ -20,10 +20,6 @@ body {
     height: 500px; /* Set height depending on your layout */
 }
 
-main {
-    margin-left: 5px !important; 
-    background-color:  #F5F5DC !important;
-}
 
 p {
     margin-bottom: 20px !important;
