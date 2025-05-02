@@ -10,11 +10,23 @@ body {
 .nav-link:hover {
     color: yellow !important;
 }
-
-main {
-    margin-left: 50px !important; /* Overrides Bootstrap styles */
+.main-content {
+    background-image: url('your-image.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    width: 100%; /* Adjust as needed */
+    height: 500px; /* Set height depending on your layout */
 }
 
+main {
+    margin-left: 50px !important; 
+    background-color:  #F5F5DC !important;
+}
+
+p {
+    margin-bottom: 20px;
+}
 
 header {
     background: linear-gradient(45deg, #ff5733, #ffbd69);
@@ -29,6 +41,7 @@ header {
 .btn-primary:hover {
     background-color: #ffbd69;
     transform: scale(1.1);
+
 }
 
 .logo-container {
