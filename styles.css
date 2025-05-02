@@ -8,9 +8,24 @@
     background: linear-gradient (to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('OIP.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    height: 109vh;
 
    }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+}
+
 .navbar{
     width:1200px;
     height: 75px;
