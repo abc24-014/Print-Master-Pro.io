@@ -11,6 +11,11 @@ body {
     color: yellow !important;
 }
 
+main {
+    margin-left: 50px !important; /* Overrides Bootstrap styles */
+}
+
+
 header {
     background: linear-gradient(45deg, #ff5733, #ffbd69);
     color: white;
