@@ -27,6 +27,7 @@ body {
 
 p {
     margin-bottom: 20px !important;
+    text-align: center !important;
 }
 
 header {
@@ -39,11 +40,11 @@ header {
 }
 
 .btn-primary:hover {
-    background-color: #ffbd69;
+    background-color: #50C878;
     transform: scale(1.1);
 
 }
 
 .logo-container {
-    background-color: #A9A9A9 !important;
+    background-color: #50C878!important;
 }
