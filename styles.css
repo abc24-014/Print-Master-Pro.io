@@ -29,11 +29,18 @@ p {
     margin-bottom: 20px !important;
     text-align: center !important;
 }
+background: linear-gradient(45deg, #007BFF, #00C6FF);
 
 header {
-    background: linear-gradient(45deg, #007BFF, #00C6FF);
+    
     color: white;
+    width: 80%; /* Adjust as needed */
+    max-width: 1200px; /* Prevents it from stretching too wide */
+    margin: auto; /* Centers the header */
+    text-align: center; /* Ensures text is aligned */
+    padding: 20px;
 }
+
 .btn-primary {
     background-color: #333; 
     border: solid;
