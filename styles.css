@@ -7,7 +7,7 @@
 
    }
 
-body {
+body{
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
@@ -18,10 +18,10 @@ body {
 }
 
 .background-container {
-    width: 80vw; /* Doesn't fill the whole screen */
+    width: 200vw; 
     padding: 50px;
     background-image: url('OIP.jpg'); 
-    background-size: contain; /* Ensures image doesn't fill the entire screen */
+    background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
