@@ -3,28 +3,32 @@
     padding:0;
 }
 
-.main{
-    width: 100%;
-    background-image: url('OIP.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 109vh;
+
 
    }
-html, body {
-    height: 100%;
+
+body {
     margin: 0;
-}
-
-.wrapper {
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
 }
 
-.content {
-    flex-grow: 1;
+.background-container {
+    width: 80vw; /* Doesn't fill the whole screen */
+    padding: 50px;
+    background-image: url('OIP.jpg'); 
+    background-size: contain; /* Ensures image doesn't fill the entire screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
 }
+
 
 .navbar{
     width:1200px;
