@@ -19,20 +19,11 @@
     color: white !important;
     boder: solid
 }
-.main {
-    background: linaer-gradient (to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(OIP.jpg); 
-    background-size: cover; /* Ensures the image covers the entire div */
-    background-position: center; /* Centers the image */
-    width: 100%; /* Adjust as needed */
-    height: 109vh; /* Set height depending on your layout */
-}
-
 
 p {
     margin-bottom: 20px !important;
     text-align: center !important;
 }
-background: linear-gradient(45deg, #007BFF, #00C6FF);
 
 header {
     
