@@ -60,8 +60,16 @@ header h1{
 }
 
 
-.navbar navbar-expand-lg navbar-dark bg-primary{
+.navbar {
     background-color: #333;
+}
+
+.navbar-nav .nav-link {
+    color: #D3D3D3;
+}
+
+.navbar-brand {
+    color: white;
 }
 
 footer {
