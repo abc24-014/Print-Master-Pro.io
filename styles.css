@@ -26,7 +26,7 @@ p {
 
 header {
     
-    color: white;
+    color: #50C878;
     width: 80%; /* Adjust as needed */
     max-width: 1200px; /* Prevents it from stretching too wide */
     margin: auto; /* Centers the header */
