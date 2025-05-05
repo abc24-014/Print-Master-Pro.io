@@ -39,6 +39,13 @@ header {
     border-line: solid;
 }
 
+header p{
+    color: #50C878;
+}
+header h1{
+    color: #50C878;
+    text-decoration: underline;
+}
 .btn-primary:hover {
     background-color: #50C878;
     transform: scale(1.1);
