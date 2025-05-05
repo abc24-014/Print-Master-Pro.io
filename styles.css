@@ -61,7 +61,7 @@ header h1{
 
 
 .navbar {
-    background-color: #333;
+    background-color: #333 !important;
 }
 
 .navbar-nav .nav-link {
