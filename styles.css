@@ -53,3 +53,6 @@ header {
 }
 
 
+.navbar navbar-expand-lg navbar-dark bg-primary{
+    background-color: #333;
+}
