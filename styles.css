@@ -37,7 +37,7 @@ header {
 
 .btn-primary {
     background-color: #333; 
-    border: solid;
+    border-line: solid;
 }
 
 .btn-primary:hover {
@@ -50,7 +50,7 @@ header {
 }
 
 .logo-container {
-    background-color: #50C878!important;
+    background-color: #333!important;
 }
 
 
