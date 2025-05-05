@@ -7,6 +7,17 @@ body {
     background-color: #F5F5DC;
     font-family: 'Arial', sans-serif;
    }
+.container-fluid {
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center;
+    background-image: url('OIP.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 .navbar-brand {
     font-weight: bold;
