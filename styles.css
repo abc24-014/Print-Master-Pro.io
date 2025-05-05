@@ -10,7 +10,7 @@
     background-position: center;
 }
 
-.navbar-brand p{
+.navbar-brand {
     font-weight: bold;
     color: white;
 }
@@ -69,10 +69,6 @@ header h1{
     color: #D3D3D3;
 }
 
-.navbar-brand {
-    color: white;
-}
-
 footer {
     font-size: 14px; /* Adjust size as needed */
     position: fixed; /* Makes it stick to the bottom */
@@ -84,5 +80,5 @@ footer {
     padding: 10px;
 }
 .rounded-image {
-    border-radius: 20px;
+    border-radius: 15px;
 }
