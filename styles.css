@@ -2,7 +2,6 @@
     min-height: 100vh; /* Ensures it covers the full viewport height */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers content vertically */
     background-image: url('OIP.jpg');
     background-size: cover;
     background-position: center;
@@ -29,9 +28,9 @@ h5{
 
 header {
     
-    color: #50C878;
+    color: #000000;
     width: 80%; /* Adjust as needed */
-    max-width: 1200px; /* Prevents it from stretching too wide */
+    max-width: 500px; /* Prevents it from stretching too wide */
     margin: auto; /* Centers the header */
     text-align: center; /* Ensures text is aligned */
     padding: 20px;
