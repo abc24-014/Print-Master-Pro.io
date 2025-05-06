@@ -18,6 +18,7 @@
 .nav-link:hover {
     color: white !important;
     boder: solid
+    boder-color: white;
 }
 
 p {
