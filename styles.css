@@ -104,3 +104,17 @@ ul li{
     width: 400px;
     border-radius: 10px;
 }
+.btn {
+  border: 1px solid #ccc; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  color: #333;
+  border-radius: 5px; 
+  display: inline-block; 
+}
+
+.btn:hover {
+  background-color: #ADD8E6; 
+  color: #fff; 
+  border-color: #ADD8E6; 
+}
