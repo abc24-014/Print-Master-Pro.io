@@ -116,7 +116,7 @@ ul li{
   border-radius: 5px !important; 
   display: inline-block !important; 
 
-}
+} ui
 
 .btn:hover {
   background-color: #ADD8E6 !important; 
@@ -126,4 +126,9 @@ ul li{
 .nevbar-brands{
     color: white !important;
     
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
