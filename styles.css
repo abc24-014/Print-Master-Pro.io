@@ -2,11 +2,11 @@
     min-height: 100vh; /* Ensures it covers the full viewport height */
     display: flex;
     flex-direction: column;
-    background-image: url('OIP.jpg');
+    background-color: white;
     background-size: cover;
     background-position: center;
 }
-
+background-image: url('OIP.jpg');
 .navbar-brands {
     font-weight: bold;
     color: white;
