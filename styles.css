@@ -30,10 +30,14 @@ header {
     
     color: #000000;
     width: 80%; /* Adjust as needed */
-    max-width: 500px; /* Prevents it from stretching too wide */
+    max-width: 1200px; /* Prevents it from stretching too wide */
     margin: auto; /* Centers the header */
     text-align: center; /* Ensures text is aligned */
     padding: 20px;
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 1em; 
+    margin-bottom: 1em; 
+
 }
 
 .btn-primary {
