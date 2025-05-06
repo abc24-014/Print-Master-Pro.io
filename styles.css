@@ -83,3 +83,24 @@ footer {
     border-radius: 15px;
     margin-left: -10px;
 }
+ul li{
+    margin-right: 20px;
+    border-line: solid;
+    border-color: white;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f3; /* Light grey */
+    padding: 50px;
+}
+
+.hero .text {
+    max-width: 600px;
+}
+
+.hero img {
+    width: 400px;
+    border-radius: 10px;
+}
