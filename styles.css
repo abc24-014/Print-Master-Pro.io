@@ -49,7 +49,7 @@ h5 {
 
 
 .main {
-    margin-left: 10px;
+    margin-left: 10px !important;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
