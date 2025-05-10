@@ -140,3 +140,9 @@ cite {
     font-size: 0.9em;
     color:#4169E1;
 }
+
+div.wrapper{
+    width: 100%;
+    min-width: 750px;
+    max-width: 1220px;
+}
