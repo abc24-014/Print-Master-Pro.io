@@ -140,3 +140,8 @@ cite {
     font-size: 0.9em;
     color:#4169E1;
 }
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
