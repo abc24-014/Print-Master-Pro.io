@@ -83,7 +83,7 @@ h5 {
 
 footer {
     font-size: 14px;
-    position: absolute !important;
+    position: fixed !important;
     bottom: 0;
     width: 100%;
     background-color: #333;
