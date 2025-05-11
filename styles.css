@@ -149,5 +149,5 @@ cite {
     max-height: 400px;
     max-width: 50%;
     object-fit: cover;
-    mrgin-left: 50px;
+    mrgin-left: 50px !important;
 }
