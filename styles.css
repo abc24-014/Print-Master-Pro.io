@@ -45,7 +45,6 @@ header {
 
 h1 {
     color: #000000;
-    text-decoration: underline !important;
 }
 
 h5 {
@@ -150,4 +149,22 @@ cite {
     max-width: 50%;
     object-fit: cover;
     mrgin-left: 50px !important;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header h1 {
+  animation: fadeSlide 1.5s ease-in-out;
+}
+header h5 {
+  animation: fadeSlide 2s ease-in-out;
 }
