@@ -30,6 +30,19 @@ body {
     color: white !important;
 }
 
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
 
 header {
     color: #000000;
