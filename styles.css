@@ -176,7 +176,7 @@ cite {
     max-height: 400px;
     max-width: 50%;
     object-fit: cover;
-    justify-content: center !important;
+    text-align: center;
 }
 
 @keyframes fadeSlide {
