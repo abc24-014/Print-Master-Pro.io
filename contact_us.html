@@ -41,147 +41,122 @@
         <p>Reach out for inquiries, quotes, or support.</p>
     </header>
     <main>
-        
-
-<section class=”contact-content”>
-
-        <div class=”contact-form”>
-
-            <h2>Get a Free Quote</h2>
-
-            <form action=”submit-form.php” method=”POST”>
-
-                <div class=”form-group”>
-
-                    <label for=”name”>Name*</label>
-
-                    <input type=”text” id=”name” name=”name” required>
-
-                </div>
-
-                <div class=”form-group”>
-
-                    <label for=”company”>Company</label>
-
-                    <input type=”text” id=”company” name=”company”>
-
-                </div>
-
-                <div class=”form-group”>
-
-                    <label for=”email”>Email*</label>
-
-                    <input type=”email” id=”email” name=”email” required>
-
-                </div>
-
-                <div class=”form-group”>
-
-                    <label for=”phone”>Phone</label>
-
-                    <input type=”tel” id=”phone” name=”phone”>
-
-                </div>
-
-                <div class=”form-group”>
-
-                    <label for=”product”>Product/Service Interested In</label>
-
-                    <select id=”product” name=”product”>
-
-                        <option value=””>Select an option</option>
-
-                        <option value=”paper”>Paper Products</option>
-
-                        <option value=”textiles”>Textiles</option>
-
-                        <option value=”promotional”>Promotional Items</option>
-
-                        <option value=”signage”>Signage</option>
-
-                        <option value=”packaging”>Packaging</option>
-
-                        <option value=”design”>Design Services</option>
-
-                        <option value=”other”>Other</option>
-
-                    </select>
-
-                </div>
-
-                <div class=”form-group”>
-
-                    <label for=”message”>Project Details*</label>
-
-                    <textarea id=”message” name=”message” rows=”5” required></textarea>
-
-                </div>
-
-                <div class=”form-group”>
-
-                    <label for=”file”>Upload Files (Optional)</label>
-
-                    <input type=”file” id=”file” name=”file”>
-
-                </div>
-
-                <button type=”submit” class=”cta-button”>Submit Request</button>
-
-            </form>
-
+        <main class="main">
+    <section class="printing-contact">
+        <div class="printing-contact-header">
+            <h1>Get Your Printing Quote</h1>
+            <p>Complete this form and our printing specialists will contact you within 1 business day</p>
         </div>
 
+        <div class="printing-contact-container">
+            <form class="printing-contact-form" action="/submit-printing-request" method="POST" enctype="multipart/form-data">
+                <!-- Contact Information -->
+                <fieldset class="form-fieldset">
+                    <legend>Your Information</legend>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="print-name">Full Name*</label>
+                            <input type="text" id="print-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="print-company">Company Name</label>
+                            <input type="text" id="print-company" name="company">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="print-email">Email*</label>
+                            <input type="email" id="print-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="print-phone">Phone*</label>
+                            <input type="tel" id="print-phone" name="phone" required>
+                        </div>
+                    </div>
+                </fieldset>
 
+                <!-- Printing Project Details -->
+                <fieldset class="form-fieldset">
+                    <legend>Project Details</legend>
+                    <div class="form-group">
+                        <label for="print-type">Printing Type*</label>
+                        <select id="print-type" name="print_type" required>
+                            <option value="">Select printing type</option>
+                            <option value="business-cards">Business Cards</option>
+                            <option value="brochures">Brochures/Flyers</option>
+                            <option value="posters">Posters/Signage</option>
+                            <option value="booklets">Booklets/Catalogs</option>
+                            <option value="packaging">Packaging/Labels</option>
+                            <option value="promotional">Promotional Items</option>
+                            <option value="large-format">Large Format Printing</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
 
-        <div class=”contact-info”>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="print-quantity">Quantity*</label>
+                            <input type="number" id="print-quantity" name="quantity" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="print-deadline">Deadline</label>
+                            <input type="date" id="print-deadline" name="deadline">
+                        </div>
+                    </div>
 
-            <h2>Contact Information</h2>
+                    <div class="form-group">
+                        <label for="print-specs">Specifications</label>
+                        <textarea id="print-specs" name="specifications" rows="3" placeholder="Size, paper type, finishes, colors, etc."></textarea>
+                    </div>
+                </fieldset>
 
-            <div class=”info-card”>
+                <!-- File Upload -->
+                <fieldset class="form-fieldset">
+                    <legend>Design Files</legend>
+                    <div class="form-group file-upload-group">
+                        <label for="print-files">Upload Your Design Files</label>
+                        <input type="file" id="print-files" name="files" multiple accept=".pdf,.jpg,.jpeg,.png,.ai,.eps,.psd,.indd">
+                        <p class="file-upload-hint">Accepted formats: PDF, JPG, PNG, AI, EPS, PSD, INDD (Max 20MB total)</p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="print-notes">Additional Notes</label>
+                        <textarea id="print-notes" name="notes" rows="4" placeholder="Special instructions, color matching needs, etc."></textarea>
+                    </div>
+                </fieldset>
 
-                <h3>Address</h3>
+                <div class="form-submit">
+                    <button type="submit" class="printing-submit-btn">
+                        <i class="fas fa-paper-plane"></i> Submit Printing Request
+                    </button>
+                    <p class="form-disclaimer">By submitting this form, you agree to our <a href="/terms">terms of service</a></p>
+                </div>
+            </form>
 
-                <p>123 Print Street<br>
-
-                Printville, PV 12345</p>
-
+            <div class="printing-contact-info">
+                <div class="printing-contact-card">
+                    <h3><i class="fas fa-phone-alt"></i> Call Us</h3>
+                    <p>(555) 123-4567</p>
+                    <p>Mon-Fri: 8:30AM - 5:30PM</p>
+                </div>
+                
+                <div class="printing-contact-card">
+                    <h3><i class="fas fa-envelope"></i> Email Us</h3>
+                    <p>quotes@printmasterpro.com</p>
+                    <p>support@printmasterpro.com</p>
+                </div>
+                
+                <div class="printing-contact-card">
+                    <h3><i class="fas fa-map-marker-alt"></i> Visit Us</h3>
+                    <p>123 Print Street</p>
+                    <p>Printville, PV 12345</p>
+                    <p>By appointment only</p>
+                </div>
             </div>
-
-            <div class=”info-card”>
-
-                <h3>Phone</h3>
-
-                <p>Main: (555) 123-4567<br>
-
-                Sales: (555) 123-4568<br>
-
-                Support: (555) 123-4569</p>
-
-            </div>
-
-            <div class=”info-card”>
-
-                <h3>Email</h3>
-
-                <p>General: info@primeprintsolutions.com<br>
-
-                Sales: sales@primeprintsolutions.com<br>
-
-                Support: support@primeprintsolutions.com</p>
-
-            </div>
-
-            <div class=”info-card”>
-
-                <h3>Hours</h3>
-
-                <p>Monday-Friday: 8:00 AM – 6:00 PM<br>
-
-                Saturday: 9:00 AM – 2:00 PM<br>
-
-                Sunday: Closed</p>
-
-            </div>                                                                
+        </div>
+    </section>
+        </main>
     </main>
             
    <footer>
