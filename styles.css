@@ -66,6 +66,11 @@ h5 {
     color: #000000;
 }
 
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
 
 .main {
     margin-left: 10px !important;
