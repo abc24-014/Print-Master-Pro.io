@@ -131,7 +131,12 @@ footer {
         max-width: 400px;
     }
 }
-
+.services-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between each service card */
+    align-items: center;
+}
 .rounded-image {
 border-radius: 15px;
 margin-left: -10px;
