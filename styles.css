@@ -183,3 +183,186 @@ header h1 {
 header h5 {
   animation: fadeSlide 2s ease-in-out;
 }
+
+/* Printing Company Contact Form Styles */
+.printing-contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.printing-contact-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.printing-contact-header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.printing-contact-header p {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+.printing-contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.printing-contact-form {
+    flex: 2;
+    min-width: 300px;
+}
+
+.form-fieldset {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: #fff;
+}
+
+.form-fieldset legend {
+    font-weight: 600;
+    color: #2c3e50;
+    padding: 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.file-upload-group {
+    padding: 1rem;
+    border: 2px dashed #bdc3c7;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.file-upload-group label {
+    cursor: pointer;
+    color: #3498db;
+    font-weight: 600;
+}
+
+.file-upload-hint {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-top: 0.5rem;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.printing-submit-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.printing-submit-btn:hover {
+    background-color: #c0392b;
+}
+
+.form-disclaimer {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-top: 1rem;
+}
+
+.printing-contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.printing-contact-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.printing-contact-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.printing-contact-card p {
+    color: #34495e;
+    margin: 0.5rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .printing-contact-container {
+        flex-direction: column;
+    }
+    
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .printing-contact-header h1 {
+        font-size: 2rem;
+    }
+}
