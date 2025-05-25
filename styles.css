@@ -178,8 +178,6 @@ cite {
 }
 
 .carousel-item img {
-    max-height: 400px;
-    max-width: 50%;
     object-fit: cover;
     text-align: center;
 }
