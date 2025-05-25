@@ -19,6 +19,9 @@ body {
 .navbar-brand img {
     border-radius: 15px;
     margin-left: -10px;
+    width: 200px;
+    height: auto;
+
 }
 
 .navbar-brands {
