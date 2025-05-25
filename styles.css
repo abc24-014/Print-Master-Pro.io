@@ -132,10 +132,16 @@ footer {
         max-width: 400px;
     }
 }
+
 .rounded-image {
 border-radius: 15px;
 margin-left: -10px;
+width: 40px;
+height: auto;
+
 }
+}
+
 .testimonial-card {
     width: 300px;
     height: 200px;
