@@ -176,10 +176,7 @@ cite {
     max-height: 400px;
     max-width: 50%;
     object-fit: cover;
-    margin-left: 50px !important;
-}
-.d-flex {
-    height: 100vh;
+    justify-content: center !important;
 }
 
 @keyframes fadeSlide {
