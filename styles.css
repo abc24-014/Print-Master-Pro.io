@@ -178,6 +178,9 @@ cite {
     object-fit: cover;
     margin-left: 50px !important;
 }
+.d-flex {
+    height: 100vh;
+}
 
 @keyframes fadeSlide {
   from {
