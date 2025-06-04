@@ -9,9 +9,7 @@ body {
     flex-direction: column;
 
 }
-.content {
-    margin-left: 10px !important;
-}
+
 
 
 .navbar {
@@ -77,7 +75,7 @@ img {
 }
 
 .main {
-    margin-left: 10px !important;
+    margin-left: 15px !important;
     margin-bottom: 80px;
     min-height: 100vh;
     display: flex;
