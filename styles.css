@@ -75,7 +75,7 @@ img {
 }
 
 .main {
-    margin-left: 15px !important;
+    margin-left: auto !important;
     margin-bottom: 80px;
     min-height: 100vh;
     display: flex;
