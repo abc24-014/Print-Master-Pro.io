@@ -74,7 +74,7 @@ img {
   object-fit: cover;
 }
 
-.main {
+main {
     margin-left: auto !important;
     margin-bottom: 80px;
     min-height: 100vh;
@@ -84,6 +84,8 @@ img {
     background-size: cover;
     background-position: center;
     flex-grow: 1;
+    padding-left: 10px !important;
+
 }
 
 .hero {
